@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #8B5D18;
+}
+::-webkit-scrollbar {
+    width: 19px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+   background-color: #f4ceb8;
+    border-radius: 8px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+  
+    background-color:#f0e1da;
+ }
+body{
+ min-height: 100vh;
+ align-items: center; 
+ justify-content: center;  
+ background-color:#FFF5F0;
+}
+.aboutSection{
+background: url(Kindergarten\ student-pana.png) no-repeat left;
+background-size: 50%;
+background-color: #FFF5F0;
+overflow:hidden;
+padding: 100px 0;
+padding-left: 230px;
+}
+.innerContainer{
+width: 60%;
+float: right;
+background-color: white;
+padding: 50px;
+text-align: center;
+box-shadow: 0 5px 25px rgba(1 1 1 /15% );
+border-radius: 30px;
+margin: 15px;
+
+}
+.innerContainer h1{
+margin-bottom: 30px;
+font-size: 30px;
+font-weight: 900;
+background: linear-gradient( 90deg, #FFF5F0,rgba(233, 215, 193, 0.6) , #FFF5F0 );
+}
+.text {
+font-size: 20px;
+line-height: 30px;
+text-align: justify;
+margin-bottom: 40px;
+}
+li{
+    list-style: square inside url(star.png);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.h {
+ background: linear-gradient( 90deg, #FFF5F0,rgba(233, 215, 193, 0.6) , #FFF5F0 );
+ color:#8B5D18;
+ line-height: 28px;
+ font-size: 40px;
+ text-align: center;
+ padding: 15px 0px 15px 20px; 
+ margin-bottom: 10px;
+ 
+ }
+.ulGoals{
+    padding:25px;
+    border-radius: 10px;
+    margin: 15px;
+}
+.twoSection{
+    background: url(Teaching-pana-removebg.png) no-repeat left;
+    background-size:44%;
+    background-color:#FFF5F0;
+    overflow:hidden;
+    padding: 100px 0;
+    margin-left: 70px;
+ }
+ .Container{
+    width: 50%;
+    float: right;
+    background-color: white;
+    padding:55px;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15% );
+    border-radius: 30px;
+    margin: 20px;
+    }
+.Container h1{
+text-align: center;
+margin-bottom: 30px;
+font-size: 30px;
+font-weight: 900;
+background: linear-gradient( 90deg, #FFF5F0,rgba(233, 215, 193, 0.6) , #FFF5F0 );
+}
+.footer-bottom{
+background-color:#FFF2EC;
+width:90vw;
+padding: 20px 0;
+text-align: center;
+color: #8B5D18;
+}
+.footer-bottom p{
+font-size:20px;
+text-transform: capitalize;
+}
+.footer-bottom span{
+text-transform: uppercase;
+font-weight:200;
+}
+
+
+.container1 , .container2{
+
+  padding:90px;
+  position:relative;
+  width:1200px;
+  margin:10px 10px;
+  margin-left:15%;
+  display:flex;
+
+}
+.box1{
+  padding:20px;
+  position:relative;
+  width:250px;
+  height:250px;
+  background:#f6a8a133;
+  margin:20px 20px;
+  text-align:center;
+  font-size:30px;
+  color:#8B5D18;
+  justify-content:center;
+  border-radius:40px;
+}
+.box1:hover {
+    transform:scale(1.2);
+    background-color:#dcedf4;
+}
+.liCenter{
+    font-size: 30px;
+  text-align: center;  
+  background: linear-gradient( 90deg, #FFF5F0,rgba(233, 215, 193, 0.6) , #FFF5F0 );
+}
+.paragraph{
+    padding:50px;
+    margin: 20px;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15% );
+    border-radius: 30px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: justify;
+    background-color: white;
+}
+.B{
+    list-style:none ;
+}
+.threeSection{
+    background: url(Midwives-pana-removebg.png) no-repeat right;
+    background-size: 40%;
+    background-color:#FFF5F0;
+    overflow:hidden;
+    padding: 100px 0;
+    margin-right: 30px;
+}
+.threeContainer{
+    width: 57%;
+    float: left;
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15% );
+    border-radius: 30px;
+    margin: 15px;
+}
+.careSection{
+    background: url(First\ aid\ kit-amico.png) no-repeat left;
+    background-size: 50%;
+    background-color: #FFF5F0;
+    overflow:hidden;
+    padding: 100px 0;
+    padding-left: 230px;
+}
+.careContainer{
+    width: 60%;
+    float: right;
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15% );
+    border-radius: 30px;
+    margin: 15px;
+}
+.p{
+    padding:50px;
+    margin: 20px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: justify;
+}
+.liCenter1{
+    font-size: 30px;
+    text-align: center; 
+    list-style: none; 
+    background: linear-gradient( 90deg, #FFF5F0,rgba(233, 215, 193, 0.6) , #FFF5F0 );
+}
